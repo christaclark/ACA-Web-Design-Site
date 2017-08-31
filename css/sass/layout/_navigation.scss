@@ -170,7 +170,7 @@
 -------------------------------------------------------*/
 
 .logo {
-  max-height: 50px;
+  min-height: 50px !important;
   position: relative;
   top: -2px;
 }
