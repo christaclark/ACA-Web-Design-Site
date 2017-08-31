@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Clark | Home 6</title>
+  <title>Freelance ATX</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
-  
+
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Karla:400,400i,700%7CLato:300,400,400i,700' rel='stylesheet'>
 
@@ -38,10 +38,10 @@
   <main class="main-wrapper">
 
     <!-- Navigation -->
-    <header class="nav nav--transparent nav--always-fixed nav--sticky-on-mobile">
-      <div class="nav__holder nav__holder--no-line" id="sticky-nav">
+    <header class="nav nav--transparent nav--transparent-dark">
 
-        <div class="container-fluid container-semi-fluid">
+      <div class="nav__holder" id="sticky-nav">
+        <div class="container">
           <div class="flex-parent">
 
             <div class="nav__header clearfix">
@@ -49,58 +49,37 @@
               <div class="logo-wrap">
                 <a href="index.html" class="logo__link">
                   <img class="logo logo--dark" src="img/logo_dark.png" alt="logo">
-                  <img class="logo logo--light" src="img/logo_light.png" alt="logo">
                 </a>
               </div>
+
+              <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="nav__icon-toggle-bar"></span>
+                <span class="nav__icon-toggle-bar"></span>
+                <span class="nav__icon-toggle-bar"></span>
+              </button>
             </div> <!-- end nav-header -->
 
-            <!-- Nav Open Icon -->
-            <div class="nav__icon-wrap">
-              <div id="nav__icon" class="nav__icon">
-                <div class="nav__icon__inner">
-                  <a href="#" id="nav__icon__trigger" class="nav__icon__trigger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </a>
-                </div>
+            <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse">
+              <ul class="nav__menu nav__menu--inline">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="syllabus.html">Syllabus</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="branding.html">Brand Guide</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- end elements -->
+              </ul> <!-- end menu -->
+
+              <div class="nav__btn-holder">
+                <a href="https://austincodingacademy.com/courses/" target="_blank" class="btn btn--sm btn--stroke btn--stroke-blue"><span>Sign Up Now</span></a>
               </div>
-            </div>
-        
+            </nav> <!-- end nav-wrap -->
+
           </div> <!-- end flex-parent -->
         </div> <!-- end container -->
-      </div>
-
-
-      <!-- Fullscreen Menu -->
-      <div class="nav__overlay" id="nav__overlay">
-        <div class="nav__overlay__menu">
-          <ul>
-            <li><a href="about-us.html">About</a></li>
-            <li><a href="portfolio-masonry.html">Works</a></li>
-            <li><a href="blog-standard.html">Blog</a></li>
-            <li><a href="../select_demo/index.html">Demos</a></li>
-          </ul>
-        </div>
-
-        <!-- Nav Close Icon -->
-        <div class="nav__icon-wrap">
-          <div class="nav__icon">
-            <div class="nav__icon__inner">
-              <a href="#" id="nav__icon__close" class="nav__icon__trigger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </a>
-            </div>
-          </div>
-        </div>
 
       </div>
     </header> <!-- end navigation -->
-
 
     <div class="content-wrapper oh">
 
@@ -146,7 +125,7 @@
             </div> <!-- end partners -->
 
 
-          </div>          
+          </div>
         </div> <!-- end hero -->
 
         <!-- Services -->
@@ -261,7 +240,7 @@
 
                 <div class="contact-item">
                   <span class="contact-item__title">Phone:</span>
-                  <a href="tel:+64-93-310-70-50" class="contact-item__phone">+64 93 310 70 50</a>              
+                  <a href="tel:+64-93-310-70-50" class="contact-item__phone">+64 93 310 70 50</a>
                 </div> <!-- end phone -->
 
                 <div class="contact-item">
@@ -276,7 +255,7 @@
                   <a href="#"><i class="ui-instagram"></i></a>
                 </div>
 
-              </div>           
+              </div>
             </div>
           </div>
         </div> <!-- end contact -->
@@ -285,13 +264,13 @@
 
     </div> <!-- end content wrapper -->
   </main> <!-- end main wrapper -->
-  
+
 
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/plugins.js"></script>  
+  <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-    
+
 </body>
 </html>
